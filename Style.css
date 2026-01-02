@@ -1,0 +1,39 @@
+*{
+  margin: 10;
+  padding: 10;
+  box-sizing:border-box
+}
+body{
+  background-color: rgb(44, 37, 37);
+  color: rgb(39, 35, 33);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+
+}
+.stopwatch{
+  background-color: rgb(153, 228, 203);
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+.timeDisplay{
+  font-size: 50px;
+  font-weight: 600;
+}
+.buttons{
+  margin-top: 20px;
+
+}
+.btn{
+  font-size: 20px;
+  background: none;
+  border: none;
+  color: rgb(227, 237, 241);
+  background-color: var(--clr);
+  padding: 10px 12px;
+  margin-inline: 12px;
+  border-radius: 8px;
+  cursor:pointer;
+}
